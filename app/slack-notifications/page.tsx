@@ -222,8 +222,9 @@ export default function SlackNotificationsPage() {
         <p className="text-[11px] font-semibold uppercase tracking-widest text-slate-400 mb-3">Next Steps</p>
         <div className="border border-slate-200 rounded-lg divide-y divide-slate-100 overflow-hidden">
           {[
-            { label: "Ownership assignment", desc: "Decide who owns each Slack channel and is responsible for daily monitoring and follow-up." },
+            { label: "Ownership assignment", desc: "Decide who owns each Slack channel and is responsible for daily monitoring and follow-up. Add the right people — including Beluga and TPH contacts — to the relevant channels." },
             { label: "Awaiting requirements email sequence", desc: "Build a minimum 7-day email sequence to ensure patients complete their medical questionnaires." },
+            { label: "SMS tooling decision", desc: "Evaluating Twilio, Customer.io, and Gorgias for automated SMS. Manual Slack monitoring will remain important even after automation — these channels are the source of truth for tracking and pushing Beluga/TPH." },
           ].map(({ label, desc }) => (
             <div key={label} className="flex items-start gap-4 px-4 py-3.5 bg-white">
               <div className="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0 mt-1.5" />
