@@ -25,6 +25,12 @@ const sections = [
     description: "Step-by-step order flows for Non-TRT vs TRT/Enclomiphene products with SLA expectations.",
     meta: "5-step and 7-step flows",
   },
+  {
+    href: "/slack-notifications",
+    title: "Slack Notifications",
+    description: "Daily EMR CSV upload triggers Slack alerts for overdue requirements, scripts, and shipments.",
+    meta: "3 channels",
+  },
 ];
 
 export default function Home() {
